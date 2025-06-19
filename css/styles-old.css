@@ -5,15 +5,6 @@
   padding-top: 120px;
 }*/
 
-/*Team*/
-
-.team-list {
-  gap: 24px;
-}
-.team-item {
-  width: calc((100% - 72px) / 4);
-}
-
 /*Portfolio*/
 .portfolio {
   background-color: #fff;
@@ -75,6 +66,8 @@
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
+/*footer*/
 
 .page-footer {
   background-color: #2e2f42;
