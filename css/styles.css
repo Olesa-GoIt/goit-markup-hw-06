@@ -1207,19 +1207,18 @@ a {
 .check-text {
   display: flex;
   align-items: center;
-
+  justify-content: center;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: #8e8f99;
-
-  justify-content: center;
   line-height: 1.17;
 }
 
 .check-element {
+  flex-shrink: 0;
   width: 16px;
   height: 16px;
   border-radius: 2px;
@@ -1270,4 +1269,12 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px 24px;
+  }
 }
